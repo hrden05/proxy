@@ -1,0 +1,128 @@
+body {
+  display: block;
+  /* flex-wrap: wrap; */
+}
+
+#header-image {
+  align-content: center;
+  margin-bottom: 10px;
+  height: auto;
+  width: 100%;
+}
+
+/* .etsyLogo {
+  size: 100px;
+}
+
+.headerBar {
+  /* background-color: lightgoldenrodyellow; */
+  /* flex: 1 1 100%;
+  height: 100px; */
+  /* opacity: 30%; */
+/* } */
+
+/* .productPictures {
+  background: lightblue;
+  flex: 1 1 66%;
+  height: 400px;
+  opacity: 30%;
+}
+
+.productPurchase {
+  background: lightskyblue;
+  flex: 1 1 34%;
+  height: 300px;
+  opacity: 30%;
+}
+
+.productReviews {
+  background: lightgrey;
+  flex: 1 1 66%;
+  opacity: 30%;
+}
+
+.productDescription {
+  flex: 1 1 33%;
+  margin-left: 1%;
+  margin-top: -100px;
+} */
+
+/* .storeInfoRoof{
+  flex: 1 1 100%;
+  height: auto;
+  fill:#F8EBE6;
+  background: inherit;
+  margin: 0px;
+  overflow: hidden;
+  width: 100%;
+} */
+
+/* .storeInfo {
+  background: #F8EBE6;
+  flex: 1 1 100%;
+  height: 300px;
+}
+
+.adsSection {
+  background: lightseagreen;
+  flex: 1 1 100%;
+  opacity: 30%;
+  height: 400px;
+} */
+
+.subscribeRoof {
+  /* flex: 1 1 100%; */
+  height: auto;
+  fill: #D7E6F5;
+  line-height: 19.6px;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.subscribe {
+  background: #D7E6F5;
+  /* flex: 1 1 100%; */
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.preFooterRoof {
+  /* flex: 1 1 100%; */
+  height: auto;
+  fill: #2F466C;
+  background: #D7E6F5;
+  /* overflow: hidden; */
+  width: auto;
+}
+
+.preFooter {
+  background: #2F466C;
+  /* flex: 1 1 100%; */
+  height: 200px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* .relatedProducts {
+  background: lightyellow;
+  flex: 1 1 100%;
+  opacity: 30%;
+  height: 200px;
+} */
+
+.footerBar {
+  background: #232347;
+  color: white;
+  /* flex: 1 1 100%; */
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* .testSVG {
+  flex: 1 1 100%;
+  height: auto;
+  width: 100%;
+} */
