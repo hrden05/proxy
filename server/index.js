@@ -13,14 +13,14 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
 // imageCarousel // !DONE
-// 5808
+// 58008
 app.use('/image-carousel', proxy(config.proxies.images));
 app.use('/api/images/', proxy(config.proxies.images, {
-  ProxyReqPathResolver: (req) => {
-    const parts = req.url.split('?');
-    const queryString = parts[1];
-    return `/api/images${queryString ? `${queryString}` : ''}`;
-  },
+  proxyReqPathResolver: function (req) {
+    var parts = req.url.split('?');
+    var queryString = parts[1];
+    return `/api/images${queryString ? `?${queryString}` : ''}`;
+  }
 }));
 
 // product info (topSideBar) // !DONE
