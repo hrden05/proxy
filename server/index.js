@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const cors = require('cors');
 const morgan = require('morgan');
 const proxy = require('express-http-proxy');
 const config = require('../config.js');
@@ -8,6 +9,7 @@ const PORT = config.app.port;
 const app = express();
 
 app.use(morgan('dev'));
+app.use(cors());
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
 // imageCarousel // !DONE
@@ -17,7 +19,7 @@ app.use('/api/images', proxy(config.proxies.images, {
   ProxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
     const queryString = parts[1];
-    return `/api/images${queryString ? `?${queryString}` : ''}`;
+    return `/api/images${queryString ? `${queryString}` : ''}`;
   },
 }));
 
