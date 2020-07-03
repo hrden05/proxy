@@ -50,7 +50,13 @@ app.use('/api/review/', proxy(config.proxies.reviews));
 // product description  // !DONE
 // 4507
 app.use('/product-description', proxy(config.proxies.productdescription));
-app.use('/api/stores/', proxy(config.proxies.productdescription));
+app.use('/api/stores/', proxy(config.proxies.productdescription, {
+  ProxyReqPathResolver: (req) => {
+    const parts = req.url.split('?');
+    const queryString = parts[1];
+    return `/api/stores${queryString ? `?${queryString}` : ''}`;
+  },
+}));
 
 // similar products (with shop, ads, you may also like) // !DONE
 // 3002
