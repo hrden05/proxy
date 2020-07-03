@@ -1,11 +1,13 @@
 const express = require('express');
 const path = require('path');
+const morgan = require('morgan');
 const proxy = require('express-http-proxy');
 const config = require('../config.js');
 
 const PORT = config.app.port;
 const app = express();
 
+app.use(morgan('dev'));
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
 // imageCarousel // !DONE
@@ -22,7 +24,6 @@ app.use('/api/images', proxy(config.proxies.images, {
 // product info (topSideBar) // !DONE
 // 7777
 app.use('/product-info', proxy(config.proxies.productinfo));
-
 app.use('/api/stores', proxy(config.proxies.productinfo, {
   ProxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
