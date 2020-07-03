@@ -13,11 +13,11 @@ app.use(express.static(path.join(__dirname, '../client/dist')));
 // imageCarousel // !DONE
 // 5808
 app.use('/image-carousel', proxy(config.proxies.images));
-app.use('/api/images', proxy(config.proxies.images, {
+app.use('/api/images/:itemId', proxy(config.proxies.images, {
   ProxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
     const queryString = parts[1];
-    return `/api/images${queryString ? `?${queryString}` : ''}`;
+    return `/api/images${queryString ? `${queryString}` : ''}`;
   },
 }));
 
