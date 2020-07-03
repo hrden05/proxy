@@ -1,3 +1,65 @@
+/* ---------------------------------------------------------- */
+/* ------------------------- PROXY -------------------------- */
+/* ---------------------------------------------------------- */
+#etsy-header-image {
+  align-items: center;
+  margin-bottom: 10px;
+  height: auto;
+  width: 100%;
+}
+
+.subscribeRoof {
+  /* flex: 1 1 100%; */
+  display: grid;
+  height: auto;
+  fill: #D7E6F5;
+  line-height: 19.6px;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.subscribe {
+  background: #D7E6F5;
+  /* flex: 1 1 100%; */
+  display: block;
+  height: 200px;
+  text-align: center;
+  /* vertical-align: middle; */
+}
+
+.preFooterRoof {
+  display: grid;
+  height: auto;
+  fill: #2F466C;
+  background: #D7E6F5;
+  /* overflow: hidden; */
+  width: 100%;
+}
+
+.preFooter {
+  background: #2F466C;
+  display: grid;
+  flex: 1 1 100%;
+  height: 200px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.footerBar {
+  background: #232347;
+  color: white;
+  flex: 1 1 100%;
+  /* display: block; */
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* ---------------------------------------------------------- */
+/* -------------------------- WILL -------------------------- */
+/* ---------------------------------------------------------- */
+
 ol, ul {
   list-style: none;
 }
@@ -335,7 +397,7 @@ form {
   border: 2px solid black;
 }
 .imageModal {
-  display: flex;
+  display: grid;
   position: relative;
   height: auto;
   max-width: 100%;
@@ -343,57 +405,678 @@ form {
   opacity: 100%;
   padding: 15px
 }
-#etsy-header-image {
-  align-items: center;
-  margin-bottom: 10px;
-  height: auto;
-  width: 100%;
+
+/* ---------------------------------------------------------- */
+/* -------------------------- LISA -------------------------- */
+/* ---------------------------------------------------------- */
+
+/* -------------------------- Fonts -------------------------- */
+.text-caption {
+  font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+  box-sizing: border-box;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 0px;
+  display: block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: left;
+  transition: opacity 200ms ease-out;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
 }
 
-.subscribeRoof {
-  /* flex: 1 1 100%; */
+.text-body {
+  font-family: 'Zilla Slab', serif;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin: 0px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  box-sizing: border-box;
   display: block;
-  height: auto;
-  fill: #D7E6F5;
-  line-height: 19.6px;
-  margin: 0;
+  letter-spacing: 0.35px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.text-heading {
+  font-family: 'Zilla Slab', serif;
+  letter-spacing: 0.5px;
+  position: relative;
+  /* margin-bottom: 0px 0px 6px 0px; */
+  box-sizing: border-box;
+  display: block;
+  margin-block-start: 0px;
+  margin-block-end: 6px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: left;
+  text-decoration: none;
+  transition: opacity 200ms ease-out;
+  z-index: 0;
+  cursor: pointer;
+}
+
+.text-title {
+  font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+  box-sizing: border-box;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-block-end: 6px;
+  margin-block-start: 0px;
+  margin: 0px 0px 6px 0px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  text-align: left;
+  text-size-adjust: 100%
+}
+
+.truncate {
   overflow: hidden;
-  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
 }
 
-.subscribe {
-  background: #D7E6F5;
-  /* flex: 1 1 100%; */
+.offset {
+  position: relative;
+  text-align: right;
   display: block;
-  height: 200px;
-  text-align: center;
-  /* vertical-align: middle; */
 }
 
-.preFooterRoof {
-  display: block;
-  height: auto;
-  fill: #2F466C;
-  background: #D7E6F5;
-  /* overflow: hidden; */
+.bottom-margin {
+  margin-bottom: 6px;
+}
+
+.big-bottom-margin {
+  margin-bottom: 18px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.black {
+  color: #222;
+}
+
+.gray {
+  color: #595959;
+}
+
+.heavy-weight {
+  font-weight: 700;
+}
+
+.medium-weight {
+  font-weight: 500;
+}
+
+.light-weight {
+  font-weight: 300;
+}
+
+/* -------------------------- Store Section -------------------------- */
+.wrapper {
+  box-sizing: border-box;
+}
+
+.background-shape {
+  height: 30px;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.top-border {
+  fill: #F8EBE6;
   width: 100%;
+  height: 100%;
+  display: flex;
 }
 
-.preFooter {
-  background: #2F466C;
-  /* display: block; */
-  flex: 1 1 100%;
-  height: 200px;
-  text-align: center;
-  vertical-align: middle;
+.store-container {
+  background-color: #F8EBE6;
+  position: relative;
+  display: block;
 }
 
-.footerBar {
-  background: #232347;
-  color: white;
-  flex: 1 1 100%;
-  /* display: block; */
-  height: 100px;
+.shop-overview {
+  max-width: 1400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* -------------------------- Store Info -------------------------- */
+.store-info {
+  box-sizing: border-box;
+  display: block;
+  text-align: left;
+}
+
+.top-store-info {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.store-logo {
+  margin: 0;
+  display: block;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.logo-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 0;
+  display: block;
+  cursor: pointer;
+}
+
+.more-from {
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+  text-align: left;
+}
+
+.arrow-container {
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 10px;
+  height: 12px;
+}
+
+.arrow {
+  height: 100%;
+  display: block;
+}
+
+.bottom-store-info {
+  position: relative;
+  flex-wrap: wrap;
+  display: flex;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.stats-box {
+  margin-right: 24px;
+  margin-bottom: 18px;
+  box-sizing: border-box;
+  display: block;
+  text-align: left;
+}
+
+.based-in {
+  margin-bottom: 18px;
+  box-sizing: border-box;
+  display: block;
+  text-align: left;
+}
+
+/* -------------------------- Store Product List -------------------------- */
+.store-products {
+  max-width: 100%;
+  min-width: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+  display: block;
+}
+
+.store-listings {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.store-item {
+  margin-bottom: 12px;
+  position: relative;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+/* Hover functionality */
+.listing-background {
+  position: relative;
+  display: block;
+  z-index: 10;
+  text-align: left;
+  cursor: pointer;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.listing-background::before {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  border-radius: 9px;
+  top: -9px;
+  right: -9px;
+  left: -9px;
+  bottom: -9px;
+  z-index: -1;
+  box-shadow: 0 2px 18px rgba(34, 34, 34, 0.2);
+  background: #FFFFFF;
+  border: 1px dotted transparent;
+  transform: scale(0.96);
+  transition: transform 200ms cubic-bezier(0.345, 0.115, 0.135, 1.42),opacity 150ms ease-out,border-color 200ms ease-out;
+}
+
+.listing-background:hover::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.listing-image-container {
+  padding: 0 0 79.412% 0;
+  overflow: hidden;
+  border-radius: 2px;
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.listing-image {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 2px;
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+}
+
+.listing-card {
+  padding-top: 2px;
+  white-space: normal;
+  box-sizing: border-box;
+  display: block;
+}
+
+.shipping-container {
+  box-sizing: border-box;
+  display: block;
+  margin-top: 6px;
+}
+
+.shipping-free {
+  font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-color: #D4E9D7;
+  background-size: auto;
+  box-sizing: border-box;
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 11px;
+  min-width: 17px;
+  padding: 3px 6px;
+  line-height: 11px;
+  text-align: left;
+  text-size-adjust: 100%;
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* -------------------------- Ads Section -------------------------- */
+.ads-section {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  box-sizing: border-box;
+  display: block;
+}
+
+/* -------------------------- Ads Tooltip -------------------------- */
+.ads-description {
+  position: relative;
+  text-align: right;
+  box-sizing: border-box;
+  display: block;
+}
+
+.ads-info {
+  margin-bottom: 12px;
+  position: relative;
+  display: inline-block;
+}
+
+button {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  box-sizing:border-box;
+  cursor: help;
+  display: inline-flex;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 400;
+  height: 20px;
+  line-height:normal;
   text-align: center;
-  vertical-align: middle;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-shadow: none;
+  text-size-adjust: 100%;
+  text-transform: none;
+  width: 47.5px;
+  outline: none;
+}
+
+.question-mark {
+  padding-left: 5px;
+}
+
+.popover-content {
+  border: 1px solid rgba(34, 34, 34, 0.15);
+  border-radius: 12px;
+  box-shadow: 0 6px 36px rgba(34, 34, 34, 0.325);
+  background: #FFFFFF;
+  color: #222222;
+  padding: 12px;
+  width: 300px;
+  transition: none;
+  transform: scale(0, 0);
+  z-index: 20;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.popover-is-open {
+  margin: 0px;
+  position: absolute;
+  right: 50px;
+  top: -3px;
+  transform: translate(0);
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 300ms cubic-bezier(0.175, 0.745, 0.425, 1.11), transform 300ms cubic-bezier(0.175, 0.745, 0.425, 1.11), visibility 300ms cubic-bezier(0.175, 0.745, 0.425, 1.11);
+}
+
+/* -------------------------- Ads Product List -------------------------- */
+.ads-products {
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-left: 0px;
+}
+
+.ad-item {
+  margin-bottom: 12px;
+  position: relative;
+  flex-shrink: 1;
+  box-sizing: border-box;
+  display: block;
+}
+
+/* -------------------------- Similar Section -------------------------- */
+.similar-section {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.similar-description {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  height: 54px;
+  justify-content: space-between;
+  line-height: 19.6px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: left;
+  text-size-adjust: 100%;
+}
+
+.similar-products {
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-left: 0px;
+}
+
+.similar-item {
+  margin-bottom: 12px;
+  position: relative;
+  flex-shrink: 1;
+  box-sizing: border-box;
+  display: block;
+}
+
+/* -------------------------- Media Queries -------------------------- */
+@media screen and (min-width: 0) {
+  .shop-overview {
+    padding: 12px 12px 24px 12px;
+    margin-bottom: 36px;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .top-store-info {
+    margin-bottom: 24px !important;
+    margin-right: -6px;
+    margin-top: -6px;
+    margin-left: -6px;
+  }
+
+  .store-logo {
+    padding: 6px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  .logo-image {
+    margin-right: 12px;
+  }
+
+  .more-from {
+    padding: 6px;
+    flex-grow: 1;
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+
+  .text-heading {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .text-body  {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .store-listings {
+    margin: -6px;
+  }
+
+  .store-item {
+    padding: 6px;
+    flex-grow: 1;
+    flex-basis: 41.66667%;
+    max-width: 41.66667%;
+  }
+
+  .ads-products {
+    margin-bottom: 24px !important;
+    margin-right: -6px;
+    margin-top: -6px;
+    margin-left: -6px;
+  }
+
+  .ad-item {
+    padding: 6px;
+    flex-grow: 1;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .similar-products {
+    margin-bottom: 24px !important;
+    margin-right: -6px;
+    margin-top: -6px;
+    margin-left: -6px;
+  }
+
+  .similar-item {
+    padding: 6px;
+    flex-grow: 1;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .shop-overview {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .top-store-info {
+    margin: -9px;
+  }
+
+  .store-logo {
+    padding: 9px;
+    flex-grow: 1;
+    flex-basis: 16.66667%;
+    max-width: 16.66667%;
+  }
+
+  .more-from {
+    padding: 9px;
+    flex-grow: 1;
+    flex-basis: 83.33333%;
+    max-width: 83.33333%;
+  }
+
+  .text-heading {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .text-body  {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .store-listings {
+    margin: -9px;
+  }
+
+  .store-item {
+    padding: 9px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  .ads-section {
+    padding: 0px 24px;
+  }
+
+  .ads-products {
+    margin: -9px;
+  }
+
+  .ad-item {
+    padding: 9px;
+    flex-grow: 1;
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+  }
+
+  .similar-section {
+    padding: 0px 24px;
+  }
+
+  .similar-products {
+    margin: -9px;
+  }
+
+  .similar-item {
+    padding: 9px;
+    flex-grow: 1;
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .shop-overview {
+    padding: 24px 30px 48px 30px;
+    flex-direction: row;
+  }
+
+  .store-info {
+    margin-right: 18px;
+    flex: 1 1 0%;
+  }
+
+  .store-logo {
+    flex-grow: 1;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .more-from {
+    flex-grow: 1;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .store-products {
+    flex: 3 1 0%;
+  }
+
+  .ads-section {
+    padding: 0px 30px;
+  }
+
+  .ad-item {
+    flex-grow: 1;
+    flex-basis: 16.66667%;
+    max-width: 16.66667%;
+  }
+
+  .similar-section {
+    padding: 0px 30px;
+  }
+
+  .similar-item {
+    flex-grow: 1;
+    flex-basis: 16.66667%;
+    max-width: 16.66667%;
+  }
 }
