@@ -50,7 +50,11 @@ app.use('/api/review', proxy(config.proxies.reviews));
 // product description  // !DONE
 // 4507
 app.use('/product-description', proxy(config.proxies.productdescription));
-app.use('/api/stores', proxy(config.proxies.productdescription));
+app.use('/api/stores', proxy(config.proxies.productdescription, {
+  ProxyReqPathResolver: (req) => {
+    return '/api/stores';
+  },
+}));
 
 // similar products (with shop, ads, you may also like) // !DONE
 // 3002
@@ -68,7 +72,7 @@ app.use('/api/storeproducts/', proxy(config.proxies.similar, {
   proxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
     const queryString = parts[1];
-    return `/api/similarproducts${queryString ? `?${queryString}` : ''}`;
+    return `/api/storeproducts${queryString ? `?${queryString}` : ''}`;
   },
 }));
 app.use('/api/ads/', proxy(config.proxies.similar, {
@@ -82,7 +86,7 @@ app.use('/api/similar/', proxy(config.proxies.similar, {
   proxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
     const queryString = parts[1];
-    return `/api/ads${queryString ? `?${queryString}` : ''}`;
+    return `/api/similar${queryString ? `?${queryString}` : ''}`;
   },
 }));
 
