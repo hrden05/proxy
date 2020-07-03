@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, '../client/dist')));
 // imageCarousel // !DONE
 // 5808
 app.use('/image-carousel', proxy(config.proxies.images));
-app.use('/api/images/:itemId', proxy(config.proxies.images, {
+app.use('/api/images/', proxy(config.proxies.images, {
   ProxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
     const queryString = parts[1];
@@ -26,7 +26,7 @@ app.use('/api/images/:itemId', proxy(config.proxies.images, {
 // product info (topSideBar) // !DONE
 // 7777
 app.use('/product-info', proxy(config.proxies.productinfo));
-app.use('/api/stores', proxy(config.proxies.productinfo, {
+app.use('/api/stores/', proxy(config.proxies.productinfo, {
   ProxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
     const queryString = parts[1];
@@ -34,7 +34,7 @@ app.use('/api/stores', proxy(config.proxies.productinfo, {
   },
 }));
 
-app.use('/api/products', proxy(config.proxies.productinfo, {
+app.use('/api/products/', proxy(config.proxies.productinfo, {
   ProxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
     const queryString = parts[1];
@@ -45,16 +45,12 @@ app.use('/api/products', proxy(config.proxies.productinfo, {
 // reviews // !DONE
 // 6969
 app.use('/reviews', proxy(config.proxies.reviews));
-app.use('/api/review', proxy(config.proxies.reviews));
+app.use('/api/review/', proxy(config.proxies.reviews));
 
 // product description  // !DONE
 // 4507
 app.use('/product-description', proxy(config.proxies.productdescription));
-app.use('/api/stores', proxy(config.proxies.productdescription, {
-  ProxyReqPathResolver: (req) => {
-    return '/api/stores';
-  },
-}));
+app.use('/api/stores/', proxy(config.proxies.productdescription));
 
 // similar products (with shop, ads, you may also like) // !DONE
 // 3002
