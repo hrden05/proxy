@@ -1,5 +1,5 @@
 body {
-  display: flexbox;
+  display: block;
   flex-wrap: wrap;
 }
 
@@ -27,7 +27,7 @@ body {
   display: block;
   height: 200px;
   text-align: center;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 .preFooterRoof {

@@ -16,7 +16,7 @@ const dev = {
 };
 
 const config = {
-  dev
+  dev,
 };
 
 module.exports = config[env];

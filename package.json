@@ -4,20 +4,27 @@
   "description": "Combining all containers into one",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./server/index.js"
+    "start": "node ./server/index.js",
+    "start-dev": "nodemon ./server/index.js"
   },
   "author": "",
   "license": "ISC",
   "homepage": "https://github.com/hrden05/proxy#readme",
-  "devDependencies": {
-    "node": "^14.5.0"
-  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-http-proxy": "^1.6.0",
-    "morgan": "^1.10.0",
+    "morgan": "^1.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrden05/proxy.git"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
     "nodemon": "^2.0.4"
   }
 }
