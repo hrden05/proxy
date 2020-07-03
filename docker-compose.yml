@@ -4,4 +4,4 @@ services:
   server:
     build: .
     ports:
-      - '7000:7000'
+      - '80:7000'
