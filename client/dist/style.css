@@ -12,7 +12,8 @@ html {
  flex-wrap: nowrap;
  flex-content: center;
  font-family: "Graphik Webfont" ,-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif !important;
-  -webkit-font-smoothing: antialiased !important;
+ margin: 20px;
+ -webkit-font-smoothing: antialiased !important;
 }
 
 #etsy-header-image {
@@ -29,7 +30,7 @@ html {
   height: auto;
   margin: 0;
   order: 2;
-/*   width: auto; */
+  width: 50px;
 }
 
 #product-info {
