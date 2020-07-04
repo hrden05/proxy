@@ -45,7 +45,7 @@ app.use('/api/products/', proxy(config.proxies.productinfo, {
 // reviews // !DONE
 // 6969
 app.use('/reviews', proxy(config.proxies.reviews));
-app.use('/reviews/api/review/', proxy(config.proxies.reviews));
+app.use('/api/review/', proxy(config.proxies.reviews));
 
 // product description  // !DONE
 // 4507
