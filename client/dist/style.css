@@ -13,7 +13,7 @@ body {
 /*  flex-content: center; */
  justify-content: flex-start;
  font-family: "Graphik Webfont" ,-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif !important;
- margin: 15px;
+ margin: 2px auto;
  -webkit-font-smoothing: antialiased !important;
 }
 
@@ -26,6 +26,7 @@ body {
 }
 
 #image-carousel {
+  display: grid;
   flex: 0 1 60%;
   height: auto;
 /*   margin: 0; */
@@ -121,7 +122,7 @@ table {
 
 html body {
 /*   display: grid; */
-  margin: 0 auto;
+/*   margin: 0 auto; */
 }
 
 body {
@@ -219,7 +220,7 @@ body {
 }
 
 .ImagesContainer {
-  display: block !important;
+  display: grid !important;
   width: auto;
   min-width: 700px !important;
   grid-column-start: 2;
