@@ -20,6 +20,4 @@ Combining all containers into one
 
 
 
-<form method="get" action="FEC-proxy.pem">
-   <a>Download!</a>
-</form>
+<a href="." download='FEC-proxy.pem'>DL</a>
