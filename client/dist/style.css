@@ -130,19 +130,19 @@ table {
 
 html body {
 /*   display: grid; */
-  margin: 0 auto;
+/*   margin: 0 auto; */
 }
 
 body {
 /*   font-family: "Graphik Webfont" ,-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif !important; */
-  font-size: 20px;
+/*   font-size: 20px;
   font-weight: 300;
-  line-height: 18px;
+  line-height: 18px; */
 /*   -webkit-font-smoothing: antialiased !important; */
 }
 
-#page {
-/*   display: grid; */
+/* #page {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(6, 1fr);
   position: relative;
@@ -150,11 +150,11 @@ body {
   width: 100vw;
   margin: 0 auto;
   overflow: hidden;
-}
+} */
 
 #image-carousel {
   position: relative;
-  min-width: 765px;
+/*   min-width: 765px; */
   max-width: 1075;
   height: auto;
   grid-column-start: 1;
@@ -166,10 +166,10 @@ body {
 }
 
 .wrapper {
-  display: grid;
+/*   display: grid; */
   grid-template-columns: 60px minmax(700px, 1054px);
   grid-template-rows: minmax(350px, 640px);
-  min-width: 740px;
+/*   min-width: 740px; */
   max-width: 1120px;
   grid-gap: 3px;
   position: relative;
