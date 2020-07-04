@@ -6,7 +6,7 @@ Combining all containers into one
 
 ### Wanna mess with the proxy? 
 1. Download the 'FEC-proxy.pem' file. Oh look, a neat link to download it:  <a download='FEC-proxy.pem' href='https://github.com/hrden05/proxy/blob/master/FEC-proxy.pem'>Whattt?</a> <sup>It's silly, right click and _'Save Link As...'_<sup>
-2. Wherever you download and then place that _pem_ file, you totally know what to do! But here it is anyways:  
+2. Once downloaded, open a console where the _pem_ file exists and run the commands:
   - `chmod 400 FEC-proxy.pem`  
   - `ssh -i "FEC-proxy.pem" ec2-user@ec2-3-14-6-240.us-east-2.compute.amazonaws.com`  
 3. Proxy [quicklink](http://ec2-3-14-6-240.us-east-2.compute.amazonaws.com/)
