@@ -20,4 +20,4 @@ Combining all containers into one
 
 
 
-<a href="./FEC-proxy.pem" download='FEC-proxy.pem'>DL</a>
+<a href="./FEC-proxy.pem" download="FEC-proxy.pem" target="_blank">DL</a>
