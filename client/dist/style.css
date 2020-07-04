@@ -14,6 +14,7 @@ body {
  justify-content: flex-start;
  font-family: "Graphik Webfont" ,-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif !important;
  margin: 20px;
+ padding: 10px;
  -webkit-font-smoothing: antialiased !important;
 }
 
@@ -92,7 +93,7 @@ body {
   height: auto;
   fill: #2F466C;
   background: #D7E6F5;
-  width: 100%;
+  width: 110%;
 /*   order: 7; */
 }
 
