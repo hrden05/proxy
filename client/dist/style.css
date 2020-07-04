@@ -68,7 +68,8 @@ body {
 }
 
 .footer {
- display: block
+ flex: 1 1 100%;
+ display: block;
  height: auto;
  width: auto;
 }
