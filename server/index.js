@@ -26,7 +26,7 @@ app.use('/api/images/', proxy(config.proxies.images, {
 // product info (topSideBar) // !DONE
 // 7777
 app.use('/product-info', proxy(config.proxies.productinfo));
-app.use('/', proxy(config.proxies.productinfo, {
+app.use('/api/stores', proxy(config.proxies.productinfo, {
   ProxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
     const queryString = parts[1];
@@ -34,7 +34,7 @@ app.use('/', proxy(config.proxies.productinfo, {
   },
 }));
 
-app.use('/', proxy(config.proxies.productinfo, {
+app.use('/api/products', proxy(config.proxies.productinfo, {
   ProxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
     const queryString = parts[1];
@@ -50,7 +50,7 @@ app.use('/api/reviews', proxy(config.proxies.reviews));
 // product description  // !DONE
 // 4507
 app.use('/product-description', proxy(config.proxies.productdescription));
-app.use('/', proxy(config.proxies.productdescription, {
+app.use('/product-description', proxy(config.proxies.productdescription, {
   ProxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
     const queryString = parts[1];
