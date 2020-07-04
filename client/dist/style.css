@@ -2214,6 +2214,10 @@ button:active:after {
   transform: scale(1) perspective(1px);
 }
 
+.buttonText {
+ width: auto;
+}
+
 .buttonDiv {
   font-size: 14px;
   line-height: 19.6px;
