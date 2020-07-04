@@ -4,15 +4,50 @@
 /* ------------------------------------- PROXY (below) -------------------------------------- */
 /* ------------------------------------------------------------------------------------------ */
 #etsy-header-image {
+  display-flex: 1 1 100%;
   align-items: center;
   margin-bottom: 10px;
   height: auto;
   width: 100%;
 }
 
+#image-carousel {
+  flex: 1 1 66%;
+  height: auto;
+  margin: 0;
+  width: auto;
+}
+
+#product-info {
+  flex: 1 1 33%;
+  height: auto;
+  margin: 0;
+  width: auto;
+}
+
+#reviews {
+  flex: 1 1 66%;
+  height: auto;
+  margin: 0;
+  width: auto;
+}
+
+#product-description {
+  flex: 1 1 33%;
+  height: auto;
+  margin: 0;
+  width: auto;
+}
+
+#similar-products {
+  flex: 1 1 100%;
+  height: auto;
+  margin: 0;
+  width: auto;
+}
+
 .subscribeRoof {
-  /* flex: 1 1 100%; */
-  display: grid;
+  flex: 1 1 100%;
   height: auto;
   fill: #D7E6F5;
   line-height: 19.6px;
@@ -23,7 +58,7 @@
 
 .subscribe {
   background: #D7E6F5;
-  /* flex: 1 1 100%; */
+  flex: 1 1 100%;
   display: block;
   height: 200px;
   text-align: center;
@@ -31,7 +66,7 @@
 }
 
 .preFooterRoof {
-  display: grid;
+  flex: 1 1 100%;
   height: auto;
   fill: #2F466C;
   background: #D7E6F5;
@@ -41,7 +76,6 @@
 
 .preFooter {
   background: #2F466C;
-  display: grid;
   flex: 1 1 100%;
   height: 200px;
   text-align: center;
@@ -52,7 +86,6 @@
   background: #232347;
   color: white;
   flex: 1 1 100%;
-  /* display: block; */
   height: 100px;
   text-align: center;
   vertical-align: middle;
