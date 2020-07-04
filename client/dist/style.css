@@ -5,12 +5,12 @@
 /* ------------------------------------------------------------------------------------------ */
 body {
 /*  display: grid; */
-/*  align-items: baseline;
- align-content: center; */
+ align-items: flex-start;
+/*  align-content: center; */
  display: flex;
- flex-direction: row;
- flex-wrap: nowrap;
- flex-content: center;
+/*  flex-direction: row; */
+/*  flex-wrap: nowrap; */
+/*  flex-content: center; */
  font-family: "Graphik Webfont" ,-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif !important;
  margin: 20px;
  -webkit-font-smoothing: antialiased !important;
@@ -26,7 +26,7 @@ body {
 }
 
 #image-carousel {
-  flex: 2 1 60%;
+  flex: 0 1 60%;
   height: auto;
   margin: 0;
   order: 2;
@@ -34,7 +34,7 @@ body {
 }
 
 #product-info {
-  flex: 2 1 30%;
+  flex: 0 1 30%;
   height: auto;
   margin: 0;
   order: 2;
@@ -43,7 +43,7 @@ body {
 
 /* #reviews { */
 #app {
-  flex: 1 1 60%;
+  flex: 0 1 60%;
   height: auto;
   margin: 0;
   order: 3;
@@ -51,7 +51,7 @@ body {
 }
 
 #product-description {
-  flex: 1 1 30%;
+  flex: 0 1 30%;
   height: auto;
   margin: 0;
   order: 3;
