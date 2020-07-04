@@ -68,48 +68,34 @@ body {
 }
 
 .footer {
- flex: 1 1 100%;
+ display: block
  height: auto;
  width: auto;
 }
 
 .subscribeRoof {
-  flex: 1 1 100%;
-  height: 100%;
   fill: #D7E6F5;
-  width: 100%;
-/*   order: 5; */
 }
 
 .subscribe {
   background: #D7E6F5;
-  flex: 1 1 100%;
   height: 200px;
-/*   order: 6; */
 }
 
 .preFooterRoof {
-  flex: 1 1 100%;
-  height: 100%;
   fill: #2F466C;
   background: #D7E6F5;
-  width: 100%;
-/*   order: 7; */
 }
 
 .preFooter {
   background: #2F466C;
-  flex: 1 1 100%;
   height: 200px;
-/*   order: 8; */
 }
 
 .footerBar {
   background: #232347;
   color: white;
-  flex: 1 1 100%;
   height: 100px;
-/*   order: 9; */
 }
 
 /* ------------------------------------------------------------------------------------------ */
