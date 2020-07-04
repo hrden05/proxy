@@ -18,6 +18,3 @@ Combining all containers into one
   2. `git pull origin master`
   3. `docker-compose up --build`
 
-
-
-<a href="./FEC-proxy.pem" onclick="window.open('FEC-proxy.pem')" target="_blank">DL</a>
