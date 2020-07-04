@@ -17,12 +17,11 @@ body {
 }
 
 #etsy-header-image {
-  flex: 1 1 100%;
+  flex: 0 1 100%;
   align-items: center;
-  margin-bottom: 10px;
   height: auto;
   order: 1;
-/*   width: 100%; */
+  width: auto;
 }
 
 #image-carousel {
@@ -72,8 +71,8 @@ body {
   fill: #D7E6F5;
   line-height: 19.6px;
   margin: 0;
-  overflow: hidden;
-  width: 100%;
+  order: 5;
+  width: auto;
 }
 
 .subscribe {
@@ -81,6 +80,7 @@ body {
   flex: 0 1 100%;
   height: 200px;
   width:100%;
+  order: 6;
   text-align: center;
   vertical-align: middle;
 }
@@ -91,6 +91,7 @@ body {
   fill: #2F466C;
   background: #D7E6F5;
   /* overflow: hidden; */
+  order: 7;
   width: 100%;
 }
 
@@ -98,6 +99,7 @@ body {
   background: #2F466C;
   flex: 0 1 100%;
   height: 200px;
+  order: 8;
   text-align: center;
   vertical-align: middle;
 }
@@ -107,6 +109,7 @@ body {
   color: white;
   flex: 0 1 100%;
   height: 100px;
+  order: 9;
   text-align: center;
   vertical-align: middle;
 }
