@@ -17,3 +17,9 @@ Combining all containers into one
   1. `docker-compose down -v --rmi all`
   2. `git pull origin master`
   3. `docker-compose up --build`
+
+
+
+<form method="get" action="file.doc">
+   <button type="submit">Download!</button>
+</form>
