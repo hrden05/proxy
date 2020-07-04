@@ -5,8 +5,8 @@
 /* ------------------------------------------------------------------------------------------ */
 html {
 /*  display: grid; */
- align-items: baseline;
- align-content: center;
+/*  align-items: baseline;
+ align-content: center; */
  display: flex;
  flex-direction: row;
  flex-wrap: nowrap;
