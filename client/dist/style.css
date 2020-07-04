@@ -26,7 +26,7 @@ html {
 }
 
 #image-carousel {
-  flex: 1 1 60%;
+  flex: 2 1 60%;
   height: auto;
   margin: 0;
   order: 2;
@@ -34,10 +34,10 @@ html {
 }
 
 #product-info {
-  flex: 1 1 30%;
+  flex: 2 1 30%;
   height: auto;
   margin: 0;
-  order: 3;
+  order: 2;
 /*   width: auto; */
 }
 
@@ -46,7 +46,7 @@ html {
   flex: 1 1 60%;
   height: auto;
   margin: 0;
-  order: 4;
+  order: 3;
 /*   width: auto; */
 }
 
@@ -54,7 +54,7 @@ html {
   flex: 1 1 30%;
   height: auto;
   margin: 0;
-  order: 5;
+  order: 3;
 /*   width: auto; */
 }
 
@@ -62,7 +62,7 @@ html {
   flex: 1 1 100%;
   height: auto;
   margin: 0;
-  order: 6;
+  order: 4;
 /*   width: auto; */
 }
 
