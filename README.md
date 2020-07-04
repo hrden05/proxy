@@ -5,7 +5,7 @@ Combining all containers into one
 -----
 
 ### Wanna mess with the proxy? 
-1. Download the 'FEC-proxy.pem' file. Oh look, a neat link to download it:  <a download='FEC-proxy.pem' href='FEC-proxy.pem'>Whattt?</a>   [whattt?](https://raw.githubusercontent.com/hrden05/proxy/FEC-proxy.pem)
+1. Download the 'FEC-proxy.pem' file. Oh look, a neat link to download it:  <a download='FEC-proxy.pem' href='https://github.com/hrden05/proxy/blob/master/'>Whattt?</a>   [whattt?](https://raw.githubusercontent.com/hrden05/proxy/FEC-proxy.pem)
 2. Wherever you download and then place that _pem_ file, you totally know what to do! But here it is anyways:  
   - `chmod 400 FEC-proxy.pem`  
   - `ssh -i "FEC-proxy.pem" ec2-user@ec2-3-14-6-240.us-east-2.compute.amazonaws.com`  
