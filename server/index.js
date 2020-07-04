@@ -27,7 +27,7 @@ app.use('/api/images/', proxy(config.proxies.images, {
 // 7777
 app.use('/product-info', proxy(config.proxies.productinfo));
 app.use('/api/stores/', proxy(config.proxies.productinfo, {
-  ProxyReqPathResolver: (req) => {
+  proxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
     const queryString = parts[1];
     return `/api/stores${queryString ? `?${queryString}` : ''}`;
@@ -35,7 +35,7 @@ app.use('/api/stores/', proxy(config.proxies.productinfo, {
 }));
 
 app.use('/api/products/', proxy(config.proxies.productinfo, {
-  ProxyReqPathResolver: (req) => {
+  proxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
     const queryString = parts[1];
     return `/api/products${queryString ? `?${queryString}` : ''}`;
@@ -50,11 +50,11 @@ app.use('/api/review', proxy(config.proxies.reviews));
 // product description  // !DONE
 // 4507
 app.use('/product-description', proxy(config.proxies.productdescription));
-app.use('product-description/api/joshstore/', proxy(config.proxies.productdescription, {
-  ProxyReqPathResolver: (req) => {
+app.use('/api/joshstore/', proxy(config.proxies.productdescription, {
+  proxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
     const queryString = parts[1];
-    return `${queryString ? `?${queryString}` : ''}`;
+    return `/api/joshstore${queryString ? `?${queryString}` : ''}`;
   },
 }));
 
