@@ -67,7 +67,6 @@ body {
 }
 
 .footer {
- display: flex; 
  flex: 1 1 100%;
  height: auto;
  width: auto;
@@ -77,6 +76,7 @@ body {
   flex: 1 1 100%;
   height: auto;
   fill: #D7E6F5;
+  width: 100%;
 /*   order: 5; */
 }
 
@@ -92,6 +92,7 @@ body {
   height: auto;
   fill: #2F466C;
   background: #D7E6F5;
+  width: 100%;
 /*   order: 7; */
 }
 
