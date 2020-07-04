@@ -49,7 +49,7 @@ app.use('/rewiews/api/review/', proxy(config.proxies.reviews));
 
 // product description  // !DONE
 // 4507
-app.use('/', proxy(config.proxies.productdescription));
+app.use('/product-description', proxy(config.proxies.productdescription));
 app.use('/api/joshstore', proxy(config.proxies.productdescription, {
   ProxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
