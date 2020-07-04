@@ -50,11 +50,11 @@ app.use('/rewiews/api/review/', proxy(config.proxies.reviews));
 // product description  // !DONE
 // 4507
 app.use('/product-description', proxy(config.proxies.productdescription));
-app.use('/api/joshstore/', proxy(config.proxies.productdescription, {
+app.use('/product-description/api/joshstore/', proxy(config.proxies.productdescription, {
   ProxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
     const queryString = parts[1];
-    return `/api/joshstore${queryString ? `?${queryString}` : ''}`;
+    return `/product-description/api/joshstore${queryString ? `?${queryString}` : ''}`;
   },
 }));
 
