@@ -45,12 +45,12 @@ app.use('/api/products/', proxy(config.proxies.productinfo, {
 // reviews // !DONE
 // 6969
 app.use('/reviews', proxy(config.proxies.reviews));
-app.use('/api/review/', proxy(config.proxies.reviews));
+app.use('/rewiews/api/review/', proxy(config.proxies.reviews));
 
 // product description  // !DONE
 // 4507
 app.use('/product-description', proxy(config.proxies.productdescription));
-app.use('/api/stores/', proxy(config.proxies.productdescription, {
+app.use('/product-description/api/stores/', proxy(config.proxies.productdescription, {
   ProxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
     const queryString = parts[1];
