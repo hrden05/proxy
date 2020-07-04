@@ -13,7 +13,7 @@ body {
 /*  flex-content: center; */
  justify-content: flex-start;
  font-family: "Graphik Webfont" ,-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif !important;
- margin: 2px auto;
+ margin: 2px auto !important;
  -webkit-font-smoothing: antialiased !important;
 }
 
@@ -2184,7 +2184,7 @@ button {
   align-items: flex-start;
   background: transparent;
   border: none;
-  cursor: pointer;
+  cursor: pointer !important;
   display: inline-block;
   outline: none;
   border-radius: 24px;
@@ -2193,8 +2193,8 @@ button {
   line-height: 18.2px;
   margin: unset !important;
   min-height: 36px;
-  min-width: 36px;
-  padding: 9px 15px;
+  min-width: 36px !important;
+  padding: 9px 15px !important;
   position: relative;
   text-align: center;
   vertical-align: middle;
