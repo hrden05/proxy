@@ -16,6 +16,8 @@ Combining all containers into one
  What I did to burpee it:
   1. `docker-compose down -v --rmi all`
   2. `git pull origin master`
-  3. `docker-compose up`
+  3. `docker-compose up`  
   <sub>4. _And occasionally_: `docker system prune --all`</sub>
   <sub>5. Then to check it's all empty: `docker system df`</sub>
+  
+  `docker-compose down -v --rmi all; git pull origin master; docker-compose up`
