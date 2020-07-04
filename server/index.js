@@ -54,7 +54,7 @@ app.use('/product-description/api/joshstore', proxy(config.proxies.productdescri
   ProxyReqPathResolver: (req) => {
     const parts = req.url.split('?');
     const queryString = parts[1];
-    return `/api/joshstore${queryString ? `?${queryString}` : ''}`;
+    return `/product-description/api/joshstore${queryString ? `?${queryString}` : ''}`;
   },
 }));
 
