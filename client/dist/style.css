@@ -3,6 +3,12 @@
 /* ------------------------------------------------------------------------------------------ */
 /* ------------------------------------- PROXY (below) -------------------------------------- */
 /* ------------------------------------------------------------------------------------------ */
+body {
+ display: flex; 
+ font-family: "Graphik Webfont" ,-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
 #etsy-header-image {
   display-flex: 1 1 100%;
   align-items: center;
@@ -110,20 +116,20 @@ table {
 }
 
 html body {
-  display: grid;
+/*   display: grid; */
   margin: 0 auto;
 }
 
 body {
-  font-family: "Graphik Webfont" ,-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif !important;
+/*   font-family: "Graphik Webfont" ,-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif !important; */
   font-size: 20px;
   font-weight: 300;
   line-height: 18px;
-  -webkit-font-smoothing: antialiased !important;
+/*   -webkit-font-smoothing: antialiased !important; */
 }
 
 #page {
-  display: grid;
+/*   display: grid; */
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(6, 1fr);
   position: relative;
@@ -434,42 +440,10 @@ form {
 /* ------------------------------------- DAVID (below) -------------------------------------- */
 /* ------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------ */
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@JMiltier 
-hrden05
-/
-etsy_topSidebar
-0
-0
-0
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-etsy_topSidebar/client/dist/style.css
-@davidyko
-davidyko Changed port for secure shell, added dockerignore
-Latest commit 3040a03 2 days ago
- History
- 1 contributor
-1579 lines (1507 sloc)  38.6 KB
-  
 .sidebarAll {
   box-sizing:border-box;
   color:rgb(34, 34, 34);
-  display:block;
+/*   display:block; */
   flex-basis:auto;
   flex-grow:0;
   flex-shrink:0;
@@ -994,22 +968,6 @@ Latest commit 3040a03 2 days ago
   width:auto;
   -webkit-font-smoothing:antialiased;
 }
-/*
-.dropdownCategories {
-  box-sizing:border-box;
-  color:rgb(34, 34, 34);
-  display:block;
-  font-family:"Graphik Webfont", -apple-system, BlinkMacSystemFont, Roboto, "Droid Sans", "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size:14px;
-  height:auto;
-  line-height:19.6px;
-  margin-bottom:0px;
-  margin-left:0px;
-  margin-right:0px;
-  margin-top:0px;
-  text-align:left;
-  text-size-adjust:100%;
-} */
 
 .dropdownLabels {
   cursor:default;
@@ -1974,7 +1932,7 @@ Latest commit 3040a03 2 days ago
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 * {
-  box-sizing: border-box;
+/*   box-sizing: border-box; */
   margin: 0px;
   padding: 0px;
 }
