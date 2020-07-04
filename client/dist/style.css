@@ -65,34 +65,30 @@ body {
   width: auto;
 }
 
+.footer {
+ display: flex; 
+}
+
 .subscribeRoof {
-  flex: 0 1 100%;
+  flex: 1 1 100%;
   height: auto;
   fill: #D7E6F5;
-  line-height: 19.6px;
-  margin: 0;
   order: 5;
-  width: auto;
 }
 
 .subscribe {
   background: #D7E6F5;
-  flex: 0 1 100%;
+  flex: 1 1 100%;
   height: 200px;
-  width:100%;
   order: 6;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .preFooterRoof {
-  flex: 0 1 100%;
+  flex: 1 1 100%;
   height: auto;
   fill: #2F466C;
   background: #D7E6F5;
-  /* overflow: hidden; */
   order: 7;
-  width: 100%;
 }
 
 .preFooter {
@@ -100,8 +96,6 @@ body {
   flex: 0 1 100%;
   height: 200px;
   order: 8;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .footerBar {
@@ -110,8 +104,6 @@ body {
   flex: 0 1 100%;
   height: 100px;
   order: 9;
-  text-align: center;
-  vertical-align: middle;
 }
 
 /* ------------------------------------------------------------------------------------------ */
