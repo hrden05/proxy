@@ -12,7 +12,6 @@ Combining all containers into one
   
 ##### Note: docker, docker-compose, and git should all be downloaded to that <em>proxy pooter<em>
 -----
-
 #### Making changes to the proxy files? 
  What I did to flip it:
   1. `docker-compose down -v --rmi all`
