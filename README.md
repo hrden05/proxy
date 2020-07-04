@@ -17,5 +17,5 @@ Combining all containers into one
   1. `docker-compose down -v --rmi all`
   2. `git pull origin master`
   3. `docker-compose up`
-  4. _And occasionally_: `docker system prune --all`
-  5. Then to check it's all empty: `docker system df`
+  <sub>4. _And occasionally_: `docker system prune --all`</sub>
+  <sub>5. Then to check it's all empty: `docker system df`</sub>
