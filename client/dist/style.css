@@ -69,12 +69,12 @@ body {
 
 .footer {
  flex: 1 1 100%;
- display: block;
  height: auto;
  width: auto;
 }
 
 .subscribeRoof {
+  display: block;
   fill: #D7E6F5;
 }
 
@@ -84,6 +84,7 @@ body {
 }
 
 .preFooterRoof {
+  display: block;
   fill: #2F466C;
   background: #D7E6F5;
 }
