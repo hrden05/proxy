@@ -68,15 +68,16 @@ body {
 }
 
 .footer {
- flex: 1 1 100%;
- height: auto;
- margin: 0;
- width: auto;
+  flex: 1 1 100%;
+  height: auto;
+  margin: 0;
+  width: auto;
 }
 
 .subscribeRoof {
   display: block;
   fill: #D7E6F5;
+  width: 100%;
 }
 
 .subscribe {
@@ -89,17 +90,20 @@ body {
   display: block;
   fill: #2F466C;
   background: #D7E6F5;
+  width: 100%;
 }
 
 .preFooter {
   background: #2F466C;
   height: 200px;
+  width: 100%;
 }
 
 .footerBar {
   background: #232347;
   color: white;
   height: 100px;
+  width: 100%;
 }
 
 /* ------------------------------------------------------------------------------------------ */
