@@ -14,7 +14,7 @@ body {
  justify-content: flex-start;
  font-family: "Graphik Webfont" ,-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif !important;
  margin: 20px;
- padding: 10px;
+ padding: 15px 15px 15px 15px;
  -webkit-font-smoothing: antialiased !important;
 }
 
