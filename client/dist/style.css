@@ -21,40 +21,40 @@ html {
   margin-bottom: 10px;
   height: auto;
   order: 1;
-  width: 100%;
+/*   width: 100%; */
 }
 
 #image-carousel {
-  flex: 1 1 66%;
+  flex: 1 1 60%;
   height: auto;
   margin: 0;
   order: 2;
-  width: 66%;
+/*   width: auto; */
 }
 
 #product-info {
-  flex: 1 1 33%;
+  flex: 1 1 30%;
   height: auto;
   margin: 0;
   order: 3;
-  width: auto;
+/*   width: auto; */
 }
 
 /* #reviews { */
 #app {
-  flex: 1 1 66%;
+  flex: 1 1 60%;
   height: auto;
   margin: 0;
   order: 4;
-  width: auto;
+/*   width: auto; */
 }
 
 #product-description {
-  flex: 1 1 33%;
+  flex: 1 1 30%;
   height: auto;
   margin: 0;
   order: 5;
-  width: auto;
+/*   width: auto; */
 }
 
 #similar-products {
@@ -62,7 +62,7 @@ html {
   height: auto;
   margin: 0;
   order: 6;
-  width: auto;
+/*   width: auto; */
 }
 
 .subscribeRoof {
