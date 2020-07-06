@@ -13,6 +13,7 @@ const dev = {
     // productdescription: 'http://localhost:4507',
     productdescription: 'http://ec2-3-15-212-157.us-east-2.compute.amazonaws.com/',
     similar: 'http://ec2-18-222-11-65.us-east-2.compute.amazonaws.com/',
+    // similar: 'http://localhost:3002',
   },
 };
 
