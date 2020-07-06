@@ -13,7 +13,7 @@ body {
 /*  flex-content: center; */
  justify-content: flex-start;
  font-family: "Graphik Webfont" ,-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif !important;
- margin: 2px auto !important;
+ margin: 10px 10px !important;
  -webkit-font-smoothing: antialiased !important;
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 #image-carousel {
-  display: grid;
+  display: grid !important;
   flex: 0 1 60%;
   height: auto;
 /*   margin: 0; */
