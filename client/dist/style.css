@@ -95,7 +95,8 @@ body {
 .subscribeButton {
  background-color: #D7E6F5 !important;
  height: 48px !important;
- width: 100px !important;
+ width: 48px !important;
+ font-size: 16px !important;
 }
 
 .preFooterRoof {
@@ -106,20 +107,39 @@ body {
 }
 
 .preFooter {
+  display: flex !important;
+  color: #FFFFFF;
+  flex-wrap: wrap;
   background: #2F466C;
   height: 200px;
+  text-align: left;
   width: 100%;
 }
 
 .preFooterTitle{
  flex: 1 25% 25%;
+ margin-bottom: 12px !important;
+ font-weight: 300;
+ font-size: 13px;
+ line-height: 18px;
 }
 
 .footerBar {
   background: #232347;
-  color: white;
+  color: #FFFFFF !important;
+  display: flex !important;
+  flex-wrap: wrap;
   height: 100px;
+  padding: 18px 24px;
   width: 100%;
+}
+
+.leftFooterBar {
+  flex: 1 42% 42%;
+}
+
+.rightFooterBar {
+  flex: 1 58% 58%;
 }
 
 /* ------------------------------------------------------------------------------------------ */
