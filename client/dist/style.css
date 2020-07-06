@@ -160,19 +160,22 @@ body {
 }
 
 .rightFooterBar {
-  color: #FFFFFF !important;
   display: flex !important;
   flex: 1 55% 55% !important;
   justify-content: flex-end !important;
 }
 
 .rightFooterText {
+  box-sizing: content-box;
   display: inline-block !important;
   font-weight: bold;
 }
 
 .rightFooterList {
+  box-sizing: content-box;
+  color: #FFFFFF !important;
   display: inline-block !important;
+  text-align: right;
   text-decoration: underline;
   margin-right: 18px !important;
 }
