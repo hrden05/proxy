@@ -86,9 +86,10 @@ body {
  width: 100%;
  background-color: #D7E6F5 !important;
  font-weight: 500;
- font-size: 16px;
+ font-size: 16px !important;
  line-height: 20px;
  text-align: center !important;
+ vertical-align: middle;
 }
 
 .subscribeButton {
@@ -108,6 +109,10 @@ body {
   background: #2F466C;
   height: 200px;
   width: 100%;
+}
+
+.preFooterTitle{
+ flex: 1 25% 25%;
 }
 
 .footerBar {
