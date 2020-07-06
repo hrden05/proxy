@@ -87,16 +87,17 @@ body {
 }
 
 .subscribeText {
+ clear: both !important;
  font-weight: 500;
  font-size: 16px;
  line-height: 20px;
  text-align: center !important;
- background: transparent !important;
 }
 
 .subscribeButton {
- height: 100% !important;
- width: 100% !important;
+ clear: both !important;
+ height: 48px !important;
+ width: auto !important;
  font-weight: 500;
  font-size: 16px;
  line-height: 20px;
