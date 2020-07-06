@@ -2480,7 +2480,7 @@ p {
   position: relative;
   text-decoration: none;
   vertical-align: middle;
-  width: 100% !important;
+  width: 100%;
   z-index: 10;
  }
 
