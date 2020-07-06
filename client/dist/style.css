@@ -166,10 +166,15 @@ body {
   justify-content: flex-end !important;
 }
 
+.rightFooterText {
+  display: inline-block !important;
+  font-weight: bold;
+}
+
 .rightFooterList {
-  display: block;
+  display: inline-block !important;
   text-decoration: underline;
-  margin-right: 18px;
+  margin-right: 18px !important;
 }
 
 /* ------------------------------------------------------------------------------------------ */
