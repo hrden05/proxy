@@ -117,14 +117,16 @@ body {
   font-weight: 300;
   font-size: 13px;
   line-height: 18px;
+  padding: 24px 36px;
   text-align: left;
   width: 100%;
 }
 
 .preFooterTitle{
- display: flex !important;
+ display: block !important;
  flex: 1 25% 25%;
  margin-bottom: 12px !important;
+ max-width: 25%;
 }
 
 .footerBar {
