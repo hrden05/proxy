@@ -142,6 +142,7 @@ body {
 
 .footerBar {
   background: #232347;
+  box-sizing: border-box;
   color: #FFFFFF !important;
   display: flex !important;
   flex-wrap: wrap;
@@ -152,17 +153,17 @@ body {
 }
 
 .leftFooterBar {
+  align-items: flex-start; 
   display: block;
   flex: 1 40% 40% !important;
+  font-weight: 700;
 }
 
 .rightFooterBar {
-  align-items: center; 
   color: #FFFFFF !important;
-  display: flex;
+  display: flex !important;
   flex: 1 55% 55% !important;
   justify-content: flex-end !important;
-  
 }
 
 .rightFooterList {
