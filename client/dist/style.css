@@ -153,15 +153,22 @@ body {
 
 .leftFooterBar {
   display: block;
-  flex: 1 40% 40%;
- }
+  flex: 1 40% 40% !important;
+}
 
 .rightFooterBar {
-  color: white !important;
+  align-items: center; 
+  color: #FFFFFF !important;
+  display: flex;
+  flex: 1 55% 55% !important;
+  justify-content: flex-end !important;
+  
+}
+
+.rightFooterList {
   display: block;
-  flex: 1 55% 55%;
-  float: right;
-  text-decoration: none;
+  text-decoration: underline;
+  margin-right: 18px;
 }
 
 /* ------------------------------------------------------------------------------------------ */
