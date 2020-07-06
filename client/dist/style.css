@@ -133,6 +133,7 @@ body {
 }
 
 .preFooterList {
+  cursor: pointer;
   display: block;
   margin-top: 12px;
 }
