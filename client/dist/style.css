@@ -81,13 +81,10 @@ body {
 }
 
 .subscribe {
-  background: #D7E6F5;
-  height: 200px;
-  width: 100%;
-}
-
-.subscribeText {
- clear: both !important;
+ background: #D7E6F5;
+ height: 200px;
+ width: 100%;
+ background-color: #D7E6F5 !important;
  font-weight: 500;
  font-size: 16px;
  line-height: 20px;
@@ -95,14 +92,9 @@ body {
 }
 
 .subscribeButton {
- clear: both !important;
+ background-color: #D7E6F5 !important;
  height: 48px !important;
- width: auto !important;
- font-weight: 500;
- font-size: 16px;
- line-height: 20px;
- text-align: center !important;
- background: transparent !important;
+ width: 100px !important;
 }
 
 .preFooterRoof {
