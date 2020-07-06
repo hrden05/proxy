@@ -153,14 +153,13 @@ body {
 
 .leftFooterBar {
   display: block;
-  flex: 1 42% 42%;
-  align-items: flex-start;
-}
+  flex: 1 40% 40%;
+ }
 
 .rightFooterBar {
-  align-items: flex-end;
+  color: white !important;
   display: flex;
-  flex: 1 58% 58%;
+  flex: 1 55% 55%;
   text-decoration: none;
 }
 
