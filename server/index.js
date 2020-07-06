@@ -46,7 +46,7 @@ app.use('/api/products/', proxy(config.proxies.productinfo, {
 // 6969
 app.use('/reviews', proxy(config.proxies.reviews));
 app.use('/api/review/', proxy(config.proxies.reviews, {
-  return '/api/review';
+  proxyReqPathResolver: () => {return '/api/review';},
 });
 
 // product description  // !DONE
