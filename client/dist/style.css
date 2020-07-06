@@ -10,10 +10,10 @@ body {
  display: flex;
 /*  flex-direction: row; */
  flex-wrap: wrap;
-/*  flex-content: center; */
+ flex-content: center;
  justify-content: flex-start;
  font-family: "Graphik Webfont" ,-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif !important;
- margin: 10px 10px !important;
+ margin: 10px 10px;
  -webkit-font-smoothing: antialiased !important;
 }
 
@@ -31,7 +31,7 @@ body {
   height: auto;
 /*   margin: 0; */
 /*   order: 2; */
-  width: 50px;
+  width: auto;
 }
 
 #product-info {
