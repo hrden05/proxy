@@ -155,13 +155,17 @@ body {
 .leftFooterBar {
   align-items: flex-start; 
   display: block;
-  flex: 1 .42 .42 !important;
+  flex-grow: 1;
+  flex-basis: 42%;
+  max-width: 42%;
   font-weight: 700;
 }
 
 .rightFooterBar {
   display: flex !important;
-  flex: 1 .55 .55 !important;
+  flex-grow: 1;
+  flex-basis: 58%;
+  max-width: 58%;
   justify-content: flex-end !important;
 }
 
