@@ -82,14 +82,14 @@ body {
 
 .subscribe {
  background: #D7E6F5;
- height: 200px;
+ height: 150px;
  width: 100%;
  background-color: #D7E6F5 !important;
  font-weight: 500;
  font-size: 16px !important;
  line-height: 20px;
  text-align: center !important;
- vertical-align: middle;
+ vertical-align: middle !important;
 }
 
 .subscribeButton {
@@ -107,7 +107,7 @@ body {
 }
 
 .preFooter {
-  display: flex !important;
+  display: block !important;
   color: #FFFFFF;
   flex-wrap: wrap;
   background: #2F466C;
@@ -117,10 +117,11 @@ body {
 }
 
 .preFooterTitle{
+ display: flex !important;
  flex: 1 25% 25%;
  margin-bottom: 12px !important;
  font-weight: 300;
- font-size: 13px;
+ font-size: 13px !important;
  line-height: 18px;
 }
 
@@ -139,6 +140,7 @@ body {
 }
 
 .rightFooterBar {
+  display: inline-block;
   flex: 1 58% 58%;
 }
 
