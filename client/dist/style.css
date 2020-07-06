@@ -86,6 +86,17 @@ body {
   width: 100%;
 }
 
+.subscribeText {
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 20px;
+}
+
+.subscribeButton {
+ height: 100% !important;
+ width: 100% !important;
+}
+
 .preFooterRoof {
   display: block;
   fill: #2F466C;
