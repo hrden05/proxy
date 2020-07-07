@@ -76,11 +76,12 @@ body {
 
 /* #reviews { */
 #app {
-  flex: 0 1 60%;
-  height: auto;
+ flex: 0 1 60%;
+ height: auto; 
+ max-height: 500px;
 /*   margin: 0; */
 /*   order: 3; */
-/*   width: auto; */
+ width: auto;
 }
 
 #product-description {
