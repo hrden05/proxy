@@ -51,9 +51,11 @@ body {
 } */
 
 #image-carousel {
+  box-sizing: border-box !important;
   display: grid !important;
   flex: 0 1 60%;
-  height: auto;
+/* maybe the rest of the page broke it? */
+  height: 550px;
 /*   margin: 0; */
 /*   order: 2; */
   width: auto;
