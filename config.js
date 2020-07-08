@@ -8,10 +8,10 @@ const dev = {
   },
   proxies: {
     images: 'http://ec2-18-218-73-45.us-east-2.compute.amazonaws.com/',
-    productinfo: 'http://ec2-18-216-167-250.us-east-2.compute.amazonaws.com/',
+    productinfo: 'http://ec2-3-15-227-194.us-east-2.compute.amazonaws.com/',
     reviews: 'http://ec2-3-21-205-61.us-east-2.compute.amazonaws.com/',
     // productdescription: 'http://localhost:4507',
-    productdescription: 'http://ec2-18-219-201-12.us-east-2.compute.amazonaws.com',
+    productdescription: 'http://ec2-18-219-201-12.us-east-2.compute.amazonaws.com/',
     similar: 'http://ec2-18-222-11-65.us-east-2.compute.amazonaws.com/',
     // similar: 'http://localhost:3002',
   },
