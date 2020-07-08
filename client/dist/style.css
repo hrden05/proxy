@@ -2774,8 +2774,8 @@ p {
 }
 
 .logo-image {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
   border-radius: 6px;
   overflow: hidden;
   border: 0;
