@@ -55,7 +55,7 @@ body {
   display: grid !important;
   flex: 0 1 60%;
 /* maybe the rest of the page broke it? */
-  height: 550px;
+  height: 550px !important;
 /*   margin: 0; */
 /*   order: 2; */
   width: auto;
