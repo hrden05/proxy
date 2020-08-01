@@ -1,4 +1,5 @@
-![Hipsy](https://i.ibb.co/cCZc12x/Screen-Shot-2020-08-01-at-1-56-07-PM.png)
+![Hipsy](https://i.ibb.co/cCZc12x/Screen-Shot-2020-08-01-at-1-56-07-PM.png)  
+![Demo video](/Hipsy_demo.gif)
 # proxy
 Combining all containers into one
 (With all our powers combined)
