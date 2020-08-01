@@ -25,22 +25,22 @@ app.use('/api/images/', proxy(config.proxies.images, {
 
 // product info (topSideBar) // !DONE
 // 7777
-app.use('/product-info', proxy(config.proxies.productinfo));
-app.use('/api/stores/', proxy(config.proxies.productinfo, {
-  proxyReqPathResolver: (req) => {
-    const parts = req.url.split('?');
-    const queryString = parts[1];
-    return `/api/stores${queryString ? `?${queryString}` : ''}`;
-  },
-}));
+// app.use('/product-info', proxy(config.proxies.productinfo));
+// app.use('/api/stores/', proxy(config.proxies.productinfo, {
+//   proxyReqPathResolver: (req) => {
+//     const parts = req.url.split('?');
+//     const queryString = parts[1];
+//     return `/api/stores${queryString ? `?${queryString}` : ''}`;
+//   },
+// }));
 
-app.use('/api/products/', proxy(config.proxies.productinfo, {
-  proxyReqPathResolver: (req) => {
-    const parts = req.url.split('?');
-    const queryString = parts[1];
-    return `/api/products${queryString ? `?${queryString}` : ''}`;
-  },
-}));
+// app.use('/api/products/', proxy(config.proxies.productinfo, {
+//   proxyReqPathResolver: (req) => {
+//     const parts = req.url.split('?');
+//     const queryString = parts[1];
+//     return `/api/products${queryString ? `?${queryString}` : ''}`;
+//   },
+// }));
 
 // reviews // !DONE
 // 6969
