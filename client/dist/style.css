@@ -81,11 +81,11 @@ body {
  flex: 0 1 60% !important;
 /*  display: block; */
  height: auto; 
- max-height: 1000px;
+ max-height: 1200px;
 /*   margin: 0; */
 /*   order: 3; */
  width: auto;
- overflow: auto;
+/*  overflow: auto; */
 /*  overflow-y: scroll;
  overflow-x: hidden; */
  padding-top: 20px;
