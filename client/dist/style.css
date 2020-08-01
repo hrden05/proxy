@@ -13,9 +13,8 @@ body {
  flex-content: center;
  justify-content: flex-start;
  font-family: "Graphik Webfont" ,-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif !important;
- margin: 10px 10px;
+ margin: 20px 20px;
  -webkit-font-smoothing: antialiased !important;
- padding: 20px 20px;
 }
 
 #etsy-header-image {
@@ -82,7 +81,7 @@ body {
  flex: 0 1 60% !important;
  display: block;
  height: auto !important; 
- max-height: 500px !important;
+ min-height: 500px !important;
 /*   margin: 0; */
 /*   order: 3; */
  width: auto;
