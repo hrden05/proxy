@@ -81,7 +81,7 @@ body {
  flex: 0 1 60% !important;
 /*  display: block; */
  height: auto; 
- min-height: 500px;
+ max-height: 1200px;
 /*   margin: 0; */
 /*   order: 3; */
  width: auto;
