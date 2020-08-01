@@ -80,7 +80,7 @@ body {
 #reviews {
  flex: 0 1 60% !important;
 /*  display: block; */
- height: 2000px; 
+ height: auto; 
  min-height: 500px;
 /*   margin: 0; */
 /*   order: 3; */
