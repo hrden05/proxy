@@ -79,7 +79,8 @@ body {
 /* #reviews { */
 #reviews {
  flex: 0 1 60% !important;
- height: 500px !important; 
+ display: grid;
+ height: 20px !important; 
  max-height: 500px !important;
 /*   margin: 0; */
 /*   order: 3; */
