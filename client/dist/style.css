@@ -79,13 +79,14 @@ body {
 /* #reviews { */
 #reviews {
  flex: 0 1 60% !important;
- display: block;
- height: auto !important; 
- min-height: 500px !important;
+/*  display: block; */
+ height: 2000px; 
+ min-height: 500px;
 /*   margin: 0; */
 /*   order: 3; */
  width: auto;
- overflow: scroll !important;
+ overflow-y: scroll;
+ overflow-x: hidden;
 }
 
 #product-description {
