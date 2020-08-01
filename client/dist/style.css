@@ -15,6 +15,7 @@ body {
  font-family: "Graphik Webfont" ,-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif !important;
  margin: 10px 10px;
  -webkit-font-smoothing: antialiased !important;
+ padding: 20px 20px;
 }
 
 #etsy-header-image {
