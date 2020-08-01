@@ -8,7 +8,7 @@ const dev = {
   },
   proxies: {
     images: 'http://ec2-18-218-73-45.us-east-2.compute.amazonaws.com/',
-    productinfo: 'http://ec2-3-15-227-194.us-east-2.compute.amazonaws.com/',
+//     productinfo: 'http://ec2-3-15-227-194.us-east-2.compute.amazonaws.com/',
     reviews: 'http://ec2-18-218-223-162.us-east-2.compute.amazonaws.com/',
     // productdescription: 'http://localhost:4507',
     productdescription: 'http://ec2-18-219-110-43.us-east-2.compute.amazonaws.com',
