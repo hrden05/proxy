@@ -87,6 +87,7 @@ body {
  width: auto;
  overflow-y: scroll;
  overflow-x: hidden;
+ padding-top: 20px;
 }
 
 #product-description {
