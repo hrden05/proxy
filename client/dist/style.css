@@ -107,6 +107,8 @@ body {
   margin: 0;
 /*   order: 4; */
   width: auto;
+ padding-left: 0 !important;
+ padding-right: 0 !important;
 }
 
 .explore-more-options {
@@ -125,6 +127,8 @@ body {
   display: block;
   fill: #D7E6F5;
   width: 100%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .subscribe {
@@ -140,6 +144,8 @@ body {
  line-height: 20px;
  text-align: center !important;
  vertical-align: middle !important;
+ padding-left: 0 !important;
+ padding-right: 0 !important;
 }
 
 .subscribeButton {
@@ -156,6 +162,8 @@ body {
   fill: #2F466C;
   background: #D7E6F5;
   width: 100%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .preFooter {
@@ -179,12 +187,16 @@ body {
   flex-grow: 1;
   margin-bottom: 12px !important;
   max-width: 25%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .preFooterList {
   cursor: pointer;
   display: block;
   line-height: 20px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .footerBar {
