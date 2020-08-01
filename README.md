@@ -1,6 +1,5 @@
 ![Hipsy](https://i.ibb.co/cCZc12x/Screen-Shot-2020-08-01-at-1-56-07-PM.png)  
 ![Demo video](/hipsy_demo.gif)
-![demo2](https://giant.gfycat.com/MealyBriskBovine.webm)
 # proxy
 Combining all containers into one
 (With all our powers combined)
