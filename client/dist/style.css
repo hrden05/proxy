@@ -77,7 +77,7 @@ body {
 } */
 
 /* #reviews { */
-#app {
+#reviews {
  flex: 0 1 60%;
  height: auto; 
  max-height: 500px;
